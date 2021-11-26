@@ -70,9 +70,9 @@ class MyFriendsFragment : Fragment(){
     override fun onViewCreated(view: View, @Nullable savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        btnSimpan.setOnClickListener {
+//        btnSimpan.setOnClickListener {
             initView()
-        }
+//        }
     }
 
     private fun initView(){
