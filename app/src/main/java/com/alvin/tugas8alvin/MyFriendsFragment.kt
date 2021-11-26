@@ -22,17 +22,27 @@ class MyFriendsFragment : Fragment(){
             "alfinade@gmail.com","08122312312","Malang"))
         listTeman.add(MyFriend("Ade","Laki-Laki",
             "alfinade@gmail.com","08122312312","Malang"))
-        tambah()
-
-    }
-    private fun tambah(){
-        listTeman= ArrayList()
         listTeman.add(
-            MyFriend("asdasd","Laki-Laki",
+            MyFriend("Alvin","Laki-Laki",
                 "alfinade@gmail.com","08122312312","Malang"))
         listTeman.add(MyFriend("Ade","Laki-Laki",
             "alfinade@gmail.com","08122312312","Malang"))
+        listTeman.add(
+            MyFriend("Alvin","Laki-Laki",
+                "alfinade@gmail.com","08122312312","Malang"))
+        listTeman.add(MyFriend("Ade","Laki-Laki",
+            "alfinade@gmail.com","08122312312","Malang"))
+
+
     }
+//    private fun tambah(){
+//        listTeman= ArrayList()
+//        listTeman.add(
+//            MyFriend("asdasd","Laki-Laki",
+//                "alfinade@gmail.com","08122312312","Malang"))
+//        listTeman.add(MyFriend("Ade","Laki-Laki",
+//            "alfinade@gmail.com","08122312312","Malang"))
+//    }
 
     private fun tampilTeman(){
         rv_listMyFreinds.layoutManager=LinearLayoutManager(activity)
