@@ -23,15 +23,15 @@ class MyFriendsFragment : Fragment(){
         listTeman.add(MyFriend("Ade","Laki-Laki",
             "alfinade@gmail.com","08122312312","Malang"))
         listTeman.add(
-            MyFriend("Alvin","Laki-Laki",
+            MyFriend("polo","Laki-Laki",
                 "alfinade@gmail.com","08122312312","Malang"))
         listTeman.add(MyFriend("Ade","Laki-Laki",
             "alfinade@gmail.com","08122312312","Malang"))
         listTeman.add(
-            MyFriend("Alvin","Laki-Laki",
-                "alfinade@gmail.com","08122312312","Malang"))
-        listTeman.add(MyFriend("Ade","Laki-Laki",
-            "alfinade@gmail.com","08122312312","Malang"))
+            MyFriend("marco","Laki-Laki",
+                "marco@gmail.com","08122312312","Malang"))
+        listTeman.add(MyFriend("al","Laki-Laki",
+            "al@gmail.com","0812239139","Malang"))
 
 
     }
